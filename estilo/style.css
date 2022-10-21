@@ -7,7 +7,7 @@
     src: url(../fontes/idroid.otf);
     font-weight: normal;
 }
-fontes\idroid.otf
+
 :root { 
    --cor0: #c5ebd6;
    --cor1: #83e1ad;
@@ -31,8 +31,8 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-a.externo:after {
-    content: '\00A0\1F517';
+a.externo {
+    content: '\00A0\1F17';
 }
 
 header {
@@ -108,7 +108,7 @@ main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
-    line-height: 2em;
+    line-height: 1em;
 }
 
 main strong {
